@@ -1,0 +1,56 @@
+body{
+font-family: 'Open Sans', sans-serif;
+
+}
+
+/* nav-tittle */
+.nav-tittle{
+    color: var(--dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+}
+
+/* text-primary */
+.text-primary{
+    color: #FD6E0A;
+font-size: 45px;
+font-weight: 800;
+}
+
+/* button primary */
+.button-primary{
+    border-radius: 5px;
+background: #FD6E0A;
+border: 0;
+color: white;
+font-size: 20px;
+font-weight: 700;
+padding: 15px 35px;
+}
+
+/* nav all */
+nav{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+/* nav ul flex */
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+/* nav list */
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+/* nav a tag */
+nav li a{
+    text-decoration: none;
+    color: var(--dark-02, #474747);  
+font-size: 20px;
+font-weight: 400;
+}
